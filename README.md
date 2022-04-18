@@ -1,4 +1,4 @@
-# DevConnector 2.0
+# DevsNest
 
 > Social network for developers
 
