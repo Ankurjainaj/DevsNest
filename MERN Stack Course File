@@ -1,0 +1,11 @@
+MERN Stack Course File:
+
+MongoDB Atlas Cluster: DevsNest
+DB username & password: ankur123
+network access set to anywhere
+DB connection link: mongodb+srv://ankur123:<password>@devsnest.hchez.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+basic dependencies installed:
+npm i express, express-validator, bcryptjs, config, gravatar, jsonwebtoken, mongoose, request
+dev dependencies installed:
+npm i -D nodemon, concurrently
