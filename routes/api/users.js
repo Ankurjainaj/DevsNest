@@ -17,7 +17,7 @@ const { default: mongoose } = require('mongoose');
 router.post(
   '/',
   [
-    check('name', 'Nme is a Required field').notEmpty(),
+    check('name', 'Name is a Required field').notEmpty(),
     check('email', 'Please include a valid email').isEmail(),
     check(
       'password',
