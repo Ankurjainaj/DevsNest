@@ -44,11 +44,11 @@ const ProfileSchema = new mongoose.Schema({
       location: {
         type: String,
       },
-      from: {
+      from_date: {
         type: Date,
         required: true,
       },
-      to: {
+      to_date: {
         type: Date,
       },
       current: {
@@ -74,11 +74,11 @@ const ProfileSchema = new mongoose.Schema({
         type: String,
         required: true,
       },
-      from: {
+      from_date: {
         type: Date,
         required: true,
       },
-      to: {
+      to_date: {
         type: Date,
       },
       current: {
