@@ -9,3 +9,8 @@ basic dependencies installed:(command without commas)
 npm i express, express-validator, bcryptjs, config, gravatar, jsonwebtoken, mongoose, request
 dev dependencies installed:
 npm i -D nodemon, concurrently
+
+Sites to see:
+jwt.io for jwt token 
+https://cloud.mongodb.com/v2 for atlas db
+https://github.com/auth0/node-jsonwebtoken for understanding json web token integration
