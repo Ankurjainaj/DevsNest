@@ -4,15 +4,39 @@ MongoDB Atlas Cluster: DevsNest
 DB username & password: ankur123
 network access set to anywhere
 DB connection link: mongodb+srv://ankur123:<password>@devsnest.hchez.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+models files are the collection names.
 
 basic dependencies installed:(command without commas)
 npm i express, express-validator, bcryptjs, config, gravatar, jsonwebtoken, mongoose, request
 dev dependencies installed:
 npm i -D nodemon, concurrently
 
+npm run server = to run the backend server (after defining scripts in package.json) otherwise use = npm start node server
+It will depend on types of your Nodemon installation. If you install Nodemon globally by using commands (npm install nodemon --global or npm install nodemon -g), you do not have to specify any script for Nodemon in your package.json file. Just executing command nodemon index.js will run your project.
+
+But if you install Nodemon locally by command npm install nodemon then you have to specify the script. If you name it as start then npm run start or npm start will trigger the server to run.
+
+npx create-react-app client = to create a client react app using npx
+npm start = inside the client folder to start the react app on http://localhost:3000 (default port)
+
+After adding scripts for client and server in package.json we can use concurrently to run both using = npm run dev
+client side dependencies installed:
+npm install axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
+
+Adding a proxy in client package.json to remove the initial http:localhost:5000 to be added in axion.
+
+In case of this error:
+Internal watch failed: ENOSPC: System limit for number of file watchers reached, watch '/home/extramarks/MERNStack Course-DevsNest/package.json
+used command:
+echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+Shorthands:
+rafc = for React Arrow Function Component creation in a file
+
 Sites to see:
-jwt.io for jwt token 
+jwt.io for jwt token
 https://cloud.mongodb.com/v2 for atlas db
 https://github.com/auth0/node-jsonwebtoken for understanding json web token integration
 https://github.com/settings/developer for generating an OAuth application for github profile getting
-https://github.com/settings/applications/new  create an OAuth application using github to get github profile and generate clientId and ClientSecret
+https://github.com/settings/applications/new create an OAuth application using github to get github profile and generate clientId and ClientSecret
+https://fontawesome.com for font stylesheet link
