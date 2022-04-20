@@ -14,3 +14,5 @@ Sites to see:
 jwt.io for jwt token 
 https://cloud.mongodb.com/v2 for atlas db
 https://github.com/auth0/node-jsonwebtoken for understanding json web token integration
+https://github.com/settings/developer for generating an OAuth application for github profile getting
+https://github.com/settings/applications/new  create an OAuth application using github to get github profile and generate clientId and ClientSecret
