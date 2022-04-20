@@ -21,7 +21,7 @@ npm start = inside the client folder to start the react app on http://localhost:
 
 After adding scripts for client and server in package.json we can use concurrently to run both using = npm run dev
 client side dependencies installed:
-npm install axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
+npm install axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment uuid
 
 Adding a proxy in client package.json to remove the initial http:localhost:5000 to be added in axion.
 

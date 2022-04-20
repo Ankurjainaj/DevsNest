@@ -67,6 +67,7 @@ img {
 }
 
 .text-primary {
+  padding-top: 60px;
   color: var(--primary-color);
 }
 
@@ -163,7 +164,8 @@ img {
 }
 
 .alert {
-  padding: 0.8rem;
+  padding-top: 55px;
+  /* padding: 0.8rem; */
   margin: 1rem 0;
   opacity: 0.9;
   background: var(--light-color);
@@ -593,4 +595,11 @@ button {
   .post button {
     padding: 0.3rem 0.4rem;
   }
+}
+
+.alert-wrapper {
+  position: fixed;
+  top: 4rem;
+  right: 2rem;
+  display: inline-block;
 }
